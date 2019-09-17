@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2019-09-17T06:30:48.777Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/09/17/java-knowledge-base/</loc>
+    
+    <lastmod>2019-09-17T06:29:13.899Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/sitemap-xml/index.html</loc>
     
     <lastmod>2019-09-17T05:37:35.144Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>http://yoursite.com/tags/index.html</loc>
     
     <lastmod>2019-09-17T05:29:11.375Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
-    
-    <lastmod>2019-09-17T04:46:17.405Z</lastmod>
     
   </url>
   
