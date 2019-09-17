@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Java基础知识-面向对象的思想]]></title>
+    <url>%2F2019%2F09%2F17%2Fjava-knowledge-base%2F</url>
+    <content type="text"><![CDATA[什么是面向对象？面向对象是一种程序设计思想，计算机程序的设计实质上就是将现实中的一些事物的特征抽离出来描述成一些计算机事件的过程，这种抽象的过程中，我们把具体的事物封装成一个一个的整体进行描述，使被描述的对象具备一些系统性、整体性的的行为和特征，我们把这种设计思想称为面向对象。 什么是对象？对象是怎么产生的？对象和类的关系？在java的世界当中，万物皆对象。对象是人们要进行研究的任何事物，从简单的一个小分子到复杂的汽车飞机都可以看做对象，只是有时对象要根据人们研究问题的需要来确定，对象不一定是具体的，有时也可以表示抽象的规则或计划。对象是类的实例化，类是对象的抽象，这是类和对象的关系。在java程序中对象是通过类的实例化产生的。所以在java程序中，先有类，才有对象。而在现实中，类的产生是人对一些相同特征的事物进行总结而产生的，所以在现实生活中是先有对象，才有类。 java程序示例//创建类的过程 public class Person{ private String name; private Integer age; private String sex; public void setName(String name){ this.name = name; } public void setAge(Integer Age){ this.age = age; } public void setSex(String sex){ this.sex = sex; } public String getName(){ return this.name; } public Integer getAge(){ return this.Age; } public String getSex(){ return this.sex; } public static void main(String[] args){ Person personOne= new Person();//类的实例化的过程，先有类才有对象。 personOne.setName("one");//对象的赋值过程。 System.out.println(personOne.getName());//使用对象。 } }]]></content>
+      <categories>
+        <category>java基础知识</category>
+      </categories>
+      <tags>
+        <tag>实用</tag>
+        <tag>个人博客</tag>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F17%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
